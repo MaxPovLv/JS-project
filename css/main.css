@@ -18,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    padding: 10px;
 }
 
 a {
@@ -28,5 +29,13 @@ a {
     border-radius: 10px;
     background: #606060;
     padding: 8px 20px;
-    margin-top: 10px;
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 25%;
 }
