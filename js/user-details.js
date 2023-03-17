@@ -47,6 +47,7 @@ btn.onclick = function () {
                 block.innerText = post.title
                 block.classList.add('post')
                 div.append(block)
+
                 let btnPost = document.createElement('a')
                 btnPost.innerText = 'Post Details'
                 btnPost.href = `../html/post-details.html?data=${JSON.stringify(post)}`
